@@ -1,0 +1,98 @@
+.sessao-especialidade {
+    margin-top: 40px;
+
+}
+
+.container-titulo {
+    padding: 0 20px;
+
+}
+
+.container-links-especialidades {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.links-especialidades {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+.link-especialidade {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #00cad1;
+    margin: 0 10px 20px;
+    font-size: 18px;
+}
+
+.link-especialidade:hover {
+    color: #0d6e71;
+}
+
+
+.box-tabela-especialista {
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.box-tabela-especialista img {
+    width: 30%;
+    height: 100%;
+}
+
+.tabela-especialista {
+    border-spacing: 0;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+}
+
+.tabela-especialista thead tr {
+    background-color: #00cad1;
+    color: #fff;
+
+}
+
+.tabela-especialista tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.tabela-especialista tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+
+}
+
+.tabela-especialista th, .tabela-especialista td {
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .box-tabela-especialista img {
+        display: none;
+    }
+}
+
+.tabela-especialistas {
+    width: 100%;
+  }
+
+
+/* Removido duplicidade de .box-tabela-especialista, já está acima */
+
+
+@media ( max-width: 425px) {
+  .box-tabela-especialista {
+    padding: 0;
+  }
+}
